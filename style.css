@@ -1,0 +1,122 @@
+.all{
+    max-width: 1000px;
+    width: 80%;
+margin: auto;
+    min-height: 300px;
+    background-color: #F7F5EB;
+    font-family: 'Comic Sans MS';
+    opacity: 90%;
+}
+header{
+   
+    background-color: rgb(241, 211, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 20px;
+
+
+}
+main{
+    font-family: 'Roboto';
+    min-height: 200px;
+    /* display: flex; vendose gjithmone ne elementin parent */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 20px;
+}
+section{
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(0, 7, 7);
+    font-family: 'Roboto';
+}
+.card1{
+    min-height: 300px;
+    width: 30%;
+    background-size: cover;
+    border-radius: 30%;
+ 
+    }
+
+
+    .card2{
+        min-height: 300px;
+        width: 30%;
+          background-size: cover;
+        border-radius: 30%;
+
+    }
+    .card3{
+        min-height: 300px;
+        width:30% ;
+        background-size: cover;
+        border-radius: 30%;
+    }
+    .main{
+        min-height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       padding-top: 20px;
+        text-align: center;
+        font-family: 'Roboto';
+        
+    }
+    
+    .foto img{
+        height: 235px;
+       
+    }
+    body{
+        
+    background-image: url(huge.jpeg);
+        color: rgb(0, 8, 8);
+        margin: auto;
+        
+    }
+    .card1 img {
+       height: 150px;
+    }
+    .card2 img {
+       height: 150px;
+
+
+    }
+    .card3 img {
+       height: 150px;
+    }
+     
+button{ 
+    font-size: 16px;
+    background-color:transparent;
+    color: rgb(0, 4, 7);
+    border:2px solid white;
+    border-radius: 7px;} 
+    
+.desc h1{
+display: flex;
+justify-content: center;
+    font-size: 30px;
+    font-family: 'Algerian';
+}
+ footer{
+    background-color: rgb(241, 211, 230);
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+ }
+ 
+.nav{
+     background-color: rgb(241, 211, 230);
+     opacity: 80%;
+      display: flex;
+      justify-content: right;}
+ 
